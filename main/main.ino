@@ -37,7 +37,7 @@ void setup() {
 void loop() {
   uint8_t i;
   
-  Serial.print("tick");
+  Serial.println("turning on motor");
 
   myMotor->run(FORWARD);
 
